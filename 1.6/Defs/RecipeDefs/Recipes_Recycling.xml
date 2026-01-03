@@ -3,9 +3,9 @@
 	<!-- adds a refinement recipe for integration -->
 	<RecipeDef>
 		<defName>TM3_Refine_ReclaimedBiopack_BiosolidFertilizer</defName>
-		<label>recycle wastepacks into volatile toxpacks</label>
-		<description>Use manual labor to recycle toxic wastepacks into volatile toxpacks, creating trash as a byproduct.</description>
-		<jobString>Recycling wastepacks into volatile toxpacks.</jobString>
+		<label>refine reclaimed biopacks from recycling into fertilizer</label>
+		<description>Use heat treatment to refine reclaimed biopacks from the recycling process into easy-to-use biosolids eg. soil fertilizer.</description>
+		<jobString>Refining reclaimed biopacks into biosolids.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -29,7 +29,7 @@
 			<Biosolids>25</Biosolids>
 		</products>
 		<workSkill>Crafting</workSkill>
-		<displayPriority>9</displayPriority>
+		<displayPriority>7</displayPriority>
 		<researchPrerequisite>
 			<li>VRecyclingE_BasicRecycling</li>
 			<li>SewageSludgeComposting</li>
